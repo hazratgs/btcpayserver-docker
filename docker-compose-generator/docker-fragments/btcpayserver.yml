@@ -4,7 +4,7 @@ services:
 
   btcpayserver:
     restart: unless-stopped
-    image: hazratg/btcpay
+    image: hazratgs/btcpay
     expose:
       - "49392"
     environment:
